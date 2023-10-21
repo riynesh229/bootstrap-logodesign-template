@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container1{
+    background-image: url(./images/13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.nice{
+    padding-top: 150px;
+}
+.design{
+    width: 95%;
+}
+.photo img{
+    width: 200px;
+    height: 200px;
+}
+.picture img{
+    width: 100%;
+    height: 250px;
+}
+.one{
+    margin-top: 150px;
+}
+.two{
+    margin-top: 150px;
+}
+.three{
+    margin-top: 150px;
+}
+.last{
+    background-image: url(./images/14.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.end div{
+    margin: 10px 0 10px 0;
+}
+.container1 .phone{
+    display: none;
+}
+
+.picture .card{ 
+    background-image: url(./images/chain.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+}
+
+.hide:hover{
+    display: none;
+}
+@media(max-width:576px){
+    .container1 .pc{
+        display: none;
+    }
+    .container1 .phone{
+        display: block;
+        text-align: end;
+    }
+
+    .container1 .item{
+        display: none;
+    }
+    .container1 .phone:hover .item{
+        display: block;
+    }
+    .photo img{
+        margin: auto;
+    }
+    .first,.second,.third{
+        margin-bottom: 15px !important;
+        margin-top: 15px !important;
+    }
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
